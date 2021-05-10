@@ -19,5 +19,6 @@
   "homepage": "https://github.com/rayuchtai/food-tracker#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "keywords": []
 }

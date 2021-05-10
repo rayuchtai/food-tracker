@@ -1,4 +1,5 @@
 # food-tracker
 
-Collaborators:
--Andy Checo
+### Collaborators:
+- Andy Checo
+- Rachel Taima
