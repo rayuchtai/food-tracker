@@ -10,12 +10,16 @@ const MONGODB_URI = process.env.MONGODB_URI
 app.use(express.json())
 app.use(express.static('public'))
 
+//controllers:
+const foodControllers = require('./controllers/food_controller.js')
+app.use('/foods', foodControllers)
+
 app.listen(PORT, () => {
   console.log("🍙 Listening on port " + PORT);
 });
 
-app.get("/", (req, res) => {
-  res.send("hello");
+app.get('/', (req, res) => {
+  res.redirect('/foods')
 });
 
 mongoose.connect(MONGODB_URI, {
