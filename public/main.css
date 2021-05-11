@@ -1,0 +1,242 @@
+body {
+  background: #282828;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #078e63;
+  border-radius: 6px;
+}
+
+#title-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 55px;
+  text-align: center;
+  font-family: Reggae One;
+  color: #0fbd00;
+  text-shadow: 3px 2px 7px #000;
+  margin-bottom: 20px;
+}
+
+.title-img {
+  width: 80px;
+  margin-left: 30px;
+  margin-top: 22px;
+}
+
+#main-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* ==================== POST CONTAINER AND INPUTS =================  */
+
+.post-title {
+  color: #fff8;
+  font-family: Righteous;
+  text-align: center;
+  width: 80%;
+}
+.right-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 0px 20px 40px 20px;
+  margin-left: 40px;
+  background: #0004;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  box-shadow: 4px 4px 7px #0009;
+}
+.post-inputs {
+  margin: 10px;
+  width: 180px;
+  height: 28px;
+  border-radius: 2px;
+  border: 1px solid #0006;
+  background: #0005;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: white;
+}
+.post-inputs-notes {
+  margin: 10px;
+  width: 180px;
+  height: 28px;
+  border-radius: 2px;
+  border: 1px solid #0006;
+  background: #0005;
+  max-width: 180px;
+  max-height: 120px;
+  min-width: 180px;
+  min-height: 28px;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: white;
+}
+
+.post-btn {
+  width: 185px;
+  height: 39px;
+  margin-top: 10px;
+  background: #6100b0;
+  border: none;
+  color: white;
+  font-family: josefin sans;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.post-btn:hover {
+  background: #8100d0;
+}
+.post-labels {
+  font-size: 20px;
+  font-family: josefin sans;
+  color: white;
+  font-weight: 900;
+}
+
+/* ==================== MAIN CONTAINER WITH FOOD LOGS =================  */
+
+#right-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* background: #0002; */
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 90%;
+  margin-bottom: 30px;
+}
+#items-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  align-content: center;
+  flex-direction: column;
+  width: 17%;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.food-name {
+  color: #fff;
+  text-shadow: 2px 2px 4px #0007;
+  font-family: josefin sans;
+  /* width: 170%; */
+  font-size: 24px;
+}
+.food-image {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px #000;
+}
+
+.food-calories {
+  color: #fff9;
+  font-size: 16px;
+  font-family: josefin sans;
+  font-weight: 400;
+  text-shadow: 1px 21x 4px #0007;
+}
+
+.food-notes {
+  color: #7ca6fd;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  width: 100%;
+  font-family: josefin sans;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.delete {
+  width: 200px;
+  height: 39px;
+  margin-top: 0px;
+  background: #b22234;
+  border: none;
+  color: #fff;
+  font-family: josefin sans;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.delete:hover {
+  background: #f22234;
+}
+
+/* ==================== MAIN CONTAINER DETAILS FOR PUT =================  */
+.summary-title {
+  color: #0009;
+  font-family: josefin sans;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.edit-label {
+  color: #0009;
+  font-size: 17px;
+  font-family: josefin sans;
+  font-weight: 800;
+}
+.edit-input {
+  margin: 10px auto;
+  width: 180px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #0006;
+  background: #fff9;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: #000;
+}
+.edit-input-textarea {
+  margin: 10px auto;
+  width: 180px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid #0006;
+  background: #fff9;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  color: #000;
+  max-width: 180px;
+  max-height: 120px;
+  min-width: 180px;
+  min-height: 28px;
+}
+
+.update {
+  width: 185px;
+  height: 34px;
+  margin-top: 0px;
+  background: #282828;
+  border: none;
+  color: white;
+  font-family: josefin sans;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 900;
+}
+.update:hover {
+  background: #383838;
+}
